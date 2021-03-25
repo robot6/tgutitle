@@ -1,0 +1,99 @@
+\ProvidesPackage{tgutitle}
+\RequirePackage{setspace}
+
+
+\newcommand{\tgutitlustone}{-15pt}
+\newcommand{\tgutitlusttwo}{-7pt}
+\newcommand{\tgutitlsecraz}{\footnotesize}
+
+
+
+\newcommand{\vyvodtitltgu}{
+  \setstretch{1.05}
+
+  \def\hrulefilla{\leavevmode\leaders\hrule height 1.5pt\hfill\kern0pt}
+  
+  \pagenumbering{gobble}
+\begin{center}
+  {МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ}\\
+       {РОССИЙСКОЙ ФЕДЕРАЦИИ}\\
+  {федеральное государственное бюджетное образовательное учреждение}\\
+       {высшего образования}\\
+  {<<Тольяттинский государственный университет>>}\\
+  \vspace{14pt}
+  \naimenovaniyeinstituta\\
+      \vspace{\tgutitlustone}\hrulefill\\\vspace{\tgutitlusttwo} 
+      {\tgutitlsecraz (наименование института полностью)}\\
+  \vspace{4pt}
+\end{center}
+\begin{flushleft}
+  {Кафедра \pervayastrokakafedry}\\ \vspace{\tgutitlustone}\hspace{2.15cm}\hrulefill\\
+  {\vtorayastrokakafedry} \\ \vspace{\tgutitlustone}\hrulefill\\
+  \begin{center}
+  \vspace{-17pt}
+  {\tgutitlsecraz (наименование)}\\
+  \end{center}
+\end{flushleft}
+\begin{center}
+  {\kodinapravleniye}\\
+      \vspace{\tgutitlustone}\hrulefill\\\vspace{\tgutitlusttwo}
+      {\tgutitlsecraz (код и наименование направления подготовки, специальности)}\\
+  {\napravlennost}\\
+      \vspace{\tgutitlustone}\hrulefill\\\vspace{\tgutitlusttwo}
+      {\tgutitlsecraz (направленность (профиль)/специализация)}\\
+  \vspace{40pt}
+  \textbf{\large ВЫПУСКНАЯ КВАЛИФИКАЦИОННАЯ РАБОТА}\\
+  \textbf{\large (БАКАЛАВРСКАЯ РАБОТА)}\\
+  \vspace{14pt}
+\end{center}
+\begin{flushleft}
+  {на тему \pervayastrokatemy}\\  \vspace{\tgutitlustone}\hspace{1.85cm}\hrulefill\\
+  {\vtorayastrokatemy}\\ \vspace{\tgutitlustone}\hrulefill\\
+\end{flushleft}
+\vspace{56pt}
+%\begin{table}[H]
+  \begin{tabular}{c@{\hspace{3mm}}c@{\hspace{3mm}}c}
+    \begin{minipage}[t]{4.0cm} Студент \end{minipage}
+    &\begin{minipage}[t]{7.4cm} \begin{center} \iofstudenta\\
+         \vspace{\tgutitlustone}\hrulefilla\\
+         \vspace{\tgutitlusttwo}{\tgutitlsecraz
+           (И.О. Фамилия)}\end{center}
+     \end{minipage}
+    & \begin{minipage}[t]{4.8cm}\begin{center}
+          \vspace{1pt}\hrulefilla\\
+          \vspace{\tgutitlusttwo}{\tgutitlsecraz (личная
+            подпись)}\end{center}
+      \end{minipage} \\
+  \end{tabular}
+
+  \vspace{0,5cm}
+  \hspace{-1.7cm}
+  \begin{tabular}{cc}
+    \begin{minipage}[t]{4.0cm} Руководитель \end{minipage}
+    &\begin{minipage}[t]{12.5cm} \begin{center} \iofrukovoditelya\\
+         \vspace{\tgutitlustone}\hrulefilla\\
+         \vspace{\tgutitlusttwo}{\tgutitlsecraz
+           (ученая степень, звание, И.О. Фамилия)}\end{center}
+     \end{minipage}\\
+    \begin{minipage}[t]{4.0cm} \vspace{0.2cm}Консультанты  \end{minipage}
+    &\begin{minipage}[t]{12.5cm} \begin{center} \vspace{0.5cm}\iofpervkons\\
+         \vspace{\tgutitlustone}\hrulefilla\\
+         \vspace{\tgutitlusttwo}{\tgutitlsecraz
+           (ученая степень, звание, И.О. Фамилия)}\end{center}
+     \end{minipage}\\   
+    &\begin{minipage}[t]{12.5cm} \begin{center} \vspace{0.5cm}\iofvtorkons\\
+         \vspace{\tgutitlustone}\hrulefilla\\
+         \vspace{\tgutitlusttwo}{\tgutitlsecraz
+           (ученая степень, звание, И.О. Фамилия)}\end{center}
+     \end{minipage}\\
+  \end{tabular}
+%\end{table}
+\vspace{35pt}
+\begin{center}
+  Тольятти \godnatitle
+\end{center}
+
+\setstretch{1.45}
+\pagenumbering{arabic}
+\setcounter{page}{2}
+}
