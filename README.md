@@ -17,7 +17,7 @@
 \newcommand{\iofrukovoditelya}{Б.Б. ФамилияРуководителя}
 \newcommand{\iofpervkons}{В.В. ФамилияПервогоКонсультанта}
 \newcommand{\iofvtorkons}{Г.Г. ФамилияВторогоКонсультанта}
-\newcommand{\godnatitle}{2021}  # Год на конца титульного листа
+\newcommand{\godnatitle}{2021}  # Год в конце титульного листа
 
 А потом вызывать вывод титульного листа...
 
